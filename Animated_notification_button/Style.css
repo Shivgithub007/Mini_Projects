@@ -1,0 +1,59 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:450px;
+}
+#icon{
+    font-size:50px;
+    color:blue;
+    padding-left:35px;
+    
+}
+#btn{
+    align-items:center;
+    height: 40px;
+    background-color:black;
+    color:white;
+    margin-bottom:20px;
+    border-radius:20px;
+    
+}
+#btn:hover{
+    
+    cursor:pointer;
+}
+#btn2{
+    align-items:center;
+    height: 40px;
+    background-color:red;
+    color:white;
+    margin-bottom:20px;
+    border-radius:20px;
+}
+#btn2:hover{
+    background-color:rgb(27, 5, 5);
+    color:rgb(255, 5, 5);
+    cursor:pointer;
+    transition:500ms;
+}
+#button{
+    align-items:center;
+    
+    
+}
+#button{
+    align-items:center;
+    
+}
+#main_icon{
+    position: relative;
+}
+#bad{
+    position:absolute;
+    right:-2px;
+    top:-5px;
+    border-radius:50%;
+    display:none;
+    background-color:red;
+}
